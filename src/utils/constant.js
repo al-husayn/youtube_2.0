@@ -11,20 +11,22 @@ import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+import PersonIcon from "@mui/icons-material/Person";
 
 export const logo =
   "https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-512.png";
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "AL Drake", icon: <CodeIcon /> },
-  { name: "Coding", icon: <CodeIcon /> },
-  { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
+  { name: "AL Drake", icon: <PersonIcon /> },
+  { name: "Lily Ogini", icon: <PersonIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
+  { name: "Wode Maya", icon: <PersonIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
+  { name: "Coding", icon: <CodeIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },
   { name: "Movie", icon: <OndemandVideoIcon /> },
+  { name: "ReactJS", icon: <CodeIcon /> },
   { name: "Gaming", icon: <SportsEsportsIcon /> },
   { name: "Live", icon: <LiveTvIcon /> },
   { name: "Sport", icon: <FitnessCenterIcon /> },
@@ -32,7 +34,6 @@ export const categories = [
   { name: "Beauty", icon: <FaceRetouchingNaturalIcon /> },
   { name: "Comedy", icon: <TheaterComedyIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
-  { name: "Crypto", icon: <DeveloperModeIcon /> },
 ];
 
 export const demoThumbnailUrl =
